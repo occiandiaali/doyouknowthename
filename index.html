@@ -1,0 +1,108 @@
+<!-- <!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>face-guess</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html> -->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/face-guess.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOYOUKNOWTHENAME</title>
+
+    <style>
+      body {
+        font-family: sans-serif;
+        text-align: center;
+        margin: 0.5rem auto;
+      }
+      img {
+        max-width: 300px;
+        margin: 1rem auto;
+        display: block;
+        transition: filter 0.5s ease;
+      }
+      /* .hint-row {
+        margin: 1rem 0;
+      } */
+      button {
+        /* margin: 0.25rem; */
+        margin: 0.5rem;
+        padding: 0.5rem 1rem;
+        border: none;
+        background-color: black;
+        color: white;
+      }
+      button:hover {
+        cursor: pointer;
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+      }
+      .guessButton {
+        background-color: green;
+        color: white;
+        border: none;
+      }
+      .guessButton:hover {
+        background-color: white;
+        color: green;
+        border: 1px solid green;
+      }
+      input {
+        padding: 6px;
+      }
+      footer {
+        margin: 4px;
+        font-size: small;
+      }
+    </style>
+    <!-- Confetti.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+  </head>
+  <body>
+    <!-- <h1>Face Guess</h1> -->
+    <img
+      src="/images/appname-nobg.png"
+      alt="DOYOUKNOWTHENAME"
+      width="200px"
+      height="80px"
+    />
+    <div id="app"></div>
+    <footer>
+      Built by
+      <a
+        href="https://occiandiaali.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        >occian f diaali</a
+      >
+      |
+      <a
+        href="https://occiandiaali.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        >About</a
+      >
+      |
+      <a
+        href="https://occiandiaali.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Privacy</a
+      >
+    </footer>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
