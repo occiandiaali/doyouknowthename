@@ -8,9 +8,12 @@
 
     <style>
       body {
-        font-family: sans-serif;
+        /* font-family: sans-serif; */
+        font-family: Arial, Geneva, Tahoma, sans-serif;
         text-align: center;
-        margin: 0.5rem auto;
+        /* margin: 0.5rem auto; */
+        margin: 0 auto;
+        padding: 4px;
       }
       img {
         max-width: 300px;
@@ -44,8 +47,17 @@
       }
       input {
         padding: 6px;
+        margin: 4px;
+      }
+      span {
+        cursor: pointer;
+        text-decoration: underline;
+        color: brown;
       }
       footer {
+        position: fixed;
+        bottom: 5px;
+        left: 10%;
         margin: 4px;
         font-size: small;
       }
@@ -70,19 +82,9 @@
         >occian f diaali</a
       >
       |
-      <a
-        href="https://occiandiaali.com"
-        target="_blank"
-        rel="noopener noreferrer"
-        >About</a
-      >
+      <a href="#/about">About</a>
       |
-      <a
-        href="https://occiandiaali.com"
-        target="_blank"
-        rel="noopener noreferrer"
-        >Privacy</a
-      >
+      <a href="#/policy">Terms</a>
     </footer>
     <script type="module" src="/src/main.js"></script>
   </body>
